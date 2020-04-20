@@ -138,3 +138,6 @@ input {
         
     }
 }
+.email-form-lockup{
+  display: inline-grid;
+ }
