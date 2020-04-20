@@ -1,0 +1,35 @@
+.our-story-header-wrapper{ /*Première div de la bannière permet la marge en haut*/
+/* Valeurs de défaut*/
+	margin: 0 auto; /*enlever les impuretés possibles au démarrage*/
+	width: 100%; /* Pour que toute la largeur du parent soit occupé sans rien laissé dehors*/
+	max-width: 1920px; /* La largeur maximum que la bannière prend selon les écrans car la largeur prend tout par défaut*/
+	top: 0; /* Aucun déplacement de la bannière. Etat initial*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: relative;
+/*Valeurs caractéristiques*/
+	z-index: 10; /* Je comprends pas l'utilité de cette propriété*/
+	padding-top: 20px; /* La partie"texte" de la bannière descend par rapport au plafond*/
+	background-color: transparent;
+	height: 100px; /*La longeur de la bannière*/ 
+	transition: background-color 2s; /* Je vois pas la valeur ajoutée*/
+}
+
+.our-story-header{ /*<!-- Deuxième div de la bannière. Elle permet de mettre une marge sur les côtés-->*/
+/*Valeurs de défaut*/
+	position: relative;
+	height: 100%;
+/*Valeurs caractéristiques*/
+	margin: 0 3.5rem; /*Marge sur les côtés mais comprend pas pourquoi rem*/
+	height: 80px;
+}
+
+/*PARTIE RESPONSIVE DESIGN*/
+@media (max-width: 949px) and (min-width:550px){
+	.our-story-header{
+		margin: 0 45px;
+	}
+}
+
+

@@ -1,0 +1,376 @@
+@media only screen and (max-width: 740px) {
+}
+@media screen and (min-width: 740px) {
+}
+.hero-card .our-story-card-text {
+  max-width: 950px;
+}
+.hero-card .our-story-card-text h1,
+.hero-card .our-story-card-text h2 {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.hero-card .our-story-card-text .our-story-card-subtitle {
+  margin: 1rem auto;
+}
+.faq-card .email-form,
+.faq-card .password-form {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .faq-card .email-form,
+  .faq-card .password-form {
+    padding: 0 5%;
+  }
+  .faq-card .email-form .our-story-cta-container,
+  .faq-card .password-form .our-story-cta-container {
+    padding: 0;
+  }
+}
+.email-form .inputError,
+.password-form .inputError {
+  color: #E87C03;
+  text-align: left;
+  margin-bottom: -6px;
+  padding: 6px 3px;
+  font-size: 15px;
+}
+.email-form .nfTextField.error,
+.password-form .nfTextField.error {
+  border-color: #E87C03;
+}
+.regenold-form .inputError {
+  color: #ffa00a;
+}
+.regenold-form .nfTextField.error {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #ffa00a;
+}
+.email-form-error {
+  max-width: 450px;
+  font-size: 1rem;
+  margin: 0 auto 15px;
+  text-align: left;
+}
+.email-form-title {
+  padding: 0 5%;
+  max-width: 450px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+  .email-form-title {
+    padding: 0 10%;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form-title {
+    max-width: none;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
+.email-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form {
+    max-width: 950px;
+    padding-top: .85rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-flow: column-reverse;
+       -moz-box-orient: vertical;
+       -moz-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+}
+.email-form-lockup {
+  text-align: center;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (max-width: 349px) {
+  .email-form-lockup .field-email {
+    margin-bottom: 0;
+  }
+  .email-form-lockup .our-story-cta-container {
+    padding: 0;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form-lockup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+  }
+  .email-form-lockup .simpleForm {
+    vertical-align: top;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+       -moz-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: right;
+  }
+  .email-form-lockup .nfInput {
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .email-form-lockup .our-story-cta-container {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+       -moz-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  .email-form-lockup .our-story-cta,
+  .email-form-lockup .nmhp-cta {
+    margin: 0 !important;
+    -webkit-border-bottom-left-radius: 0;
+       -moz-border-radius-bottomleft: 0;
+            border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+       -moz-border-radius-topleft: 0;
+            border-top-left-radius: 0;
+    border-left: 1px solid #333333;
+  }
+  .email-form-lockup .btn.our-story-cta.our-story-cta-chevron.our-story-cta-extra-large.long-text-reg {
+    font-size: 1.25rem;
+    padding-right: 2.2rem;
+    padding-left: 1rem;
+  }
+  .email-form-lockup .btn.our-story-cta.our-story-cta-chevron.our-story-cta-extra-large.long-text-reg svg {
+    top: 36%;
+    right: .75rem;
+  }
+  .email-form-lockup .nmhp-cta-long-text {
+    font-size: 1.25rem;
+  }
+}
+.email-form-lockup .nfInput {
+  margin: 10px auto;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .email-form-lockup .nfInput {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .email-form-lockup .nfInput input {
+    min-width: 450px;
+    height: 60px !important;
+    -webkit-border-bottom-right-radius: 0;
+       -moz-border-radius-bottomright: 0;
+            border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+       -moz-border-radius-topright: 0;
+            border-top-right-radius: 0;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .email-form-lockup .nfInput input {
+    min-width: 500px;
+    height: 70px !important;
+    -webkit-border-bottom-right-radius: 0;
+       -moz-border-radius-bottomright: 0;
+            border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+       -moz-border-radius-topright: 0;
+            border-top-right-radius: 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .password-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    max-width: 815px;
+    margin: 0 auto;
+  }
+}
+.password-form .email-form-title {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 8px 8px 0 0;
+     -moz-border-radius: 8px 8px 0 0;
+          border-radius: 8px 8px 0 0;
+  padding: 18px 18px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .password-form .email-form-title {
+    font-size: 1.2rem;
+    padding: 24px 24px 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .password-form .email-form-title {
+    padding: 24px 24px 0;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}
+.password-form-lockup {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 450px;
+  width: 100%;
+}
+.password-form-lockup .simpleForm {
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 0 0 8px 8px;
+     -moz-border-radius: 0 0 8px 8px;
+          border-radius: 0 0 8px 8px;
+  padding: 18px;
+}
+.password-form-lockup .field-email-preference {
+  text-align: left;
+  margin-bottom: 0;
+}
+.password-form-lockup .field-email-preference .ui-binary-input {
+  max-width: unset;
+}
+.password-form-lockup .cta-link-wrapper {
+  padding: 0 18px;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .password-form-lockup .simpleForm {
+    padding: 24px;
+  }
+  .password-form-lockup .cta-link-wrapper {
+    padding: 0 24px;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .password-form-lockup {
+    max-width: 815px;
+  }
+  .password-form-lockup .simpleForm {
+    padding: 24px;
+  }
+  .password-form-lockup .field-email,
+  .password-form-lockup .field-password {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .password-form-lockup .field-email:nth-child(even),
+  .password-form-lockup .field-password:nth-child(even) {
+    padding: 0 0 0 5px;
+  }
+  .password-form-lockup .field-email:nth-child(odd),
+  .password-form-lockup .field-password:nth-child(odd) {
+    padding: 0 5px 0 0;
+  }
+}
+.nmhp-cta-reggie {
+  width: 100%;
+  font-size: 1.25rem;
+  min-height: 48px;
+}
+.nmhp-cta-reggie:after {
+  min-height: 48px;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+  .nmhp-cta-reggie {
+    width: auto;
+    font-size: 1.625rem;
+    min-height: 60px;
+  }
+  .nmhp-cta-reggie:after {
+    min-height: 60px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+  .nmhp-cta-reggie .chevron-right-arrow {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+       -moz-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: left;
+  }
+  .nmhp-cta-reggie .cta-btn-txt {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+       -moz-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    text-align: right;
+  }
+}
+.nmhp-cta-reggie.nmhp-cta-long-text .cta-btn-txt {
+  text-align: center;
+}
+.nmhp-cta-reggie.nmhp-cta-long-text .chevron-right-arrow {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  text-align: right;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  .nmhp-cta-reggie.nmhp-cta-long-text {
+    font-size: 1rem;
+  }
+}
+/* Global layout styles for Fuji framework */
+@media only screen and (min-width: 500px) {
+}
+/* Card types.  Add additional less files for any new card type. */
+/* Some overrides to make legacy devices lay out better. */
+/* India NMHP Mobile Banner test 15594 */
+/* Reggie test 15328 */
+@media only screen and (max-width: 740px) {
+}
+@media screen and (min-width: 740px) {
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px) {
+}

@@ -1,0 +1,105 @@
+.nf-message-container {
+  display: table;
+  width: 100%;
+  margin: 10px 0;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+.nf-message-contents {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 10px;
+  color: #ffffff;
+}
+.nf-message-contents a {
+  color: inherit;
+  text-decoration: underline;
+}
+.nf-message-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.nf-message-icon {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  width: 53px;
+}
+.nf-message-icon:before {
+  font-family: 'nf-icon';
+  /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  line-height: 1.5em;
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+.nf-message-subtle {
+  background-color: #f7f7f7;
+  border: solid 1px #cccccc;
+}
+.nf-message-subtle > .nf-message-icon {
+  color: #000000;
+}
+.nf-message-subtle > .nf-message-icon:before {
+  content: '\e799';
+}
+.nf-message-subtle .nf-message-contents {
+  color: #000000;
+}
+.nf-message-info {
+  background: #0071eb;
+}
+.nf-message-info > .nf-message-icon:before {
+  content: '\e799';
+}
+.nf-message-wait {
+  text-align: center;
+}
+.nf-message-warn {
+  background: #ffa00a;
+}
+.nf-message-warn > .nf-message-icon:before {
+  content: '\e796';
+}
+.nf-message-error {
+  background: #ffa00a;
+}
+.nf-message-error > .nf-message-icon:before {
+  content: '\e805';
+}
+.nf-message-success {
+  background: #5fa53f;
+}
+.nf-message-success > .nf-message-icon:before {
+  content: '\e802';
+}
+.nf-message-subtle-no-icon {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.nf-message-subtle-no-icon .nf-message-contents {
+  color: #000000;
+}
+.nf-message-subtle-no-icon > .nf-message-icon {
+  display: none;
+}
+.nf-message-info-no-icon {
+  background: #0071eb;
+  text-align: center;
+}
+.nf-message-info-no-icon > .nf-message-icon {
+  display: none;
+}
+.nf-message-warn-high-contrast {
+  background: #ffa00a;
+}
+.nf-message-warn-high-contrast > .nf-message-contents {
+  color: #000;
+  padding: 20px 30px 20px 10px;
+}
+.nf-message-warn-high-contrast > .nf-message-icon {
+  color: #000;
+}
+.nf-message-warn-high-contrast > .nf-message-icon:before {
+  content: '\e796';
+}

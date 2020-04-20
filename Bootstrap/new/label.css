@@ -1,0 +1,44 @@
+.ui-label,
+.ui-label-no-margin,
+.nfCompactInput {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8c8c8c;
+  display: block;
+}
+@media only screen and (max-width: 740px) {
+  .ui-label,
+  .ui-label-no-margin,
+  .nfCompactInput {
+    font-size: 13px;
+  }
+}
+.ui-label.inline,
+.ui-label-no-margin.inline,
+.nfCompactInput.inline {
+  display: inline-block;
+}
+.ui-label.inline .ui-text-input,
+.ui-label-no-margin.inline .ui-text-input,
+.nfCompactInput.inline .ui-text-input {
+  margin-bottom: 0;
+}
+.ui-label.nmHomeTextInput .ui-label-text,
+.ui-label-no-margin.nmHomeTextInput .ui-label-text,
+.nfCompactInput.nmHomeTextInput .ui-label-text {
+  margin-right: 1ex;
+}
+.ui-label.nmHomeTextInput .ui-text-input,
+.ui-label-no-margin.nmHomeTextInput .ui-text-input,
+.nfCompactInput.nmHomeTextInput .ui-text-input,
+.ui-label.nmHomeTextInput .input-password-input,
+.ui-label-no-margin.nmHomeTextInput .input-password-input,
+.nfCompactInput.nmHomeTextInput .input-password-input {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: #737373;
+  font-size: 23px;
+  color: #ffffff;
+}
+.ui-label {
+  margin-bottom: 6px;
+}

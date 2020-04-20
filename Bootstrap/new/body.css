@@ -1,0 +1,229 @@
+html,
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #333333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  min-width: 320px;
+  margin: 0;
+}
+body .member-header {
+  min-width: 190px;
+}
+body > .bd {
+  min-height: 400px;
+  min-width: 320px;
+  margin: 30px 30px 0;
+}
+h1 {
+  font-size: 27px;
+  margin: 0 0 .4em;
+}
+h2,
+h3,
+h4,
+h5 {
+  margin: .75em 0 .25em;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+@media screen and (min-width: 740px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 19px;
+  }
+  h5 {
+    font-size: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+}
+.centerContainer {
+  margin: 0 auto 15px;
+  padding: 20px 3% 60px;
+  max-width: 978px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.centerContainer.smallForm {
+  max-width: 500px;
+}
+strong,
+.bold {
+  font-weight: bold;
+}
+.clearfix:after {
+  content: ' ';
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.nowrap {
+  white-space: nowrap;
+}
+a {
+  text-decoration: none;
+  color: #0071eb;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  padding: 0;
+}
+ul > li {
+  margin-left: 1.1em;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+ul.structural {
+  padding: 0;
+  margin: 0;
+}
+ul.structural > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.basic-spinner {
+  display: inline-block;
+  margin: 0 auto;
+  opacity: 1;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/common/site-spinner-240.png");
+  width: 57px;
+  height: 57px;
+  -webkit-animation: full-rotation 1s infinite linear;
+     -moz-animation: full-rotation 1s infinite linear;
+       -o-animation: full-rotation 1s infinite linear;
+          animation: full-rotation 1s infinite linear;
+  -webkit-animation-direction: normal /*rtl:reverse*/;
+     -moz-animation-direction: normal /*rtl:reverse*/;
+       -o-animation-direction: normal /*rtl:reverse*/;
+          animation-direction: normal /*rtl:reverse*/;
+}
+.basic-spinner.isHidden {
+  display: none;
+}
+.basic-spinner.basic-spinner-light {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/common/site-spinner-240-light.png");
+}
+.center-fixed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2000;
+}
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+/* Animated gif fallback for IEs which do not support css animated rotation */
+.ua-ie-7 .basic-spinner,
+.ua-ie-8 .basic-spinner,
+.ua-ie-9 .basic-spinner {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/common/site-spinner-100.gif");
+}
+@-webkit-keyframes full-rotation {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-moz-keyframes full-rotation {
+  from {
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+         transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -moz-transform: translate(-50%, -50%) rotate(360deg);
+         transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-o-keyframes full-rotation {
+  from {
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+       transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -o-transform: translate(-50%, -50%) rotate(360deg);
+       transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes full-rotation {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+       -moz-transform: translate(-50%, -50%) rotate(0deg);
+         -o-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+       -moz-transform: translate(-50%, -50%) rotate(360deg);
+         -o-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.basic-spinner-region {
+  position: relative;
+}
+.basic-spinner-region.isLoading::before {
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
